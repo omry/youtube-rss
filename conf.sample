@@ -1,0 +1,11 @@
+YOUTUBE_CHANNEL_URL = http://gdata.youtube.com/feeds/api/users/%s/uploads
+YOUTUBE_PROFILE_URL = http://gdata.youtube.com/feeds/api/users/%s
+BIN_DIR = /home/omry/youtube-rss/bin
+DOWNLOAD_DIR = /home/omry/youtube-rss/download
+RSS_WEB_DIR=/home/omry/www/youtube-rss.firefang.net
+RSS_BASE_URL=http://youtube-rss.firefang.net
+DELETE_OLDER=14
+CHECK_INTERVAL_MIN=15
+
+# Youtube dl rate limit
+RATE_LIMIT=1m
